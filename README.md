@@ -20,4 +20,4 @@ Uma simples Landing page responsiva
 
 ---
 
-Uma landing page feita com o intuito de treinar algumas habilidades no quesito da responsividade
+Uma landing page feita com o intuito de treinar algumas habilidades no quesito da responsividade, é um  site que ja tinha postado mas devido alguns problemas tive que reupar os arquivos do zero.
