@@ -1,0 +1,23 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*Configurações globais */
+@import "global.css";
+
+/* Apresentação do site */
+@import "sessoes/apresentacao.css";
+
+/* Sessão Sobre */
+@import "sessoes/sobre.css";
+
+/* Sessão serviços */
+@import "sessoes/servicos.css";
+
+/* Sessão projetos */
+@import "sessoes/projetos.css";
+
+/* Sessão contato */
+@import "sessoes/contato.css";
+
+/* Footer */
+@import "sessoes/footer.css";

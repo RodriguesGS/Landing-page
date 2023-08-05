@@ -1,0 +1,28 @@
+.footer-bg {
+    background: #EEF3FD;
+    height: 100px;
+}
+
+.texto-footer {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.texto-footer a {
+    transition: .1s;
+}
+
+.texto-footer a:hover {
+    color: #444444;
+    text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+    .texto-footer {
+        font-size: .7rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
