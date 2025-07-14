@@ -24,7 +24,11 @@ html {
 
 body { 
     background-color: var(--cor-0);
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient(to bottom, #000000c4 0%, #0000009c 80%, transparent 90%, #0f0f0f 100%), url('../img/bg-apresentacao.jpg') no-repeat center center fixed;
 }
 
 img {
@@ -54,13 +58,13 @@ ul {
     color: var(--cor-1);
     margin-top: 40px;
     transition: .3s;
-    border: 5px solid transparent;
+    border: 2px solid transparent;
     font-weight: 600;
 }
 
 .botao:hover {
     background-color: transparent;
-    border: 4px solid var(--cor-p1);
+    border: 2px solid var(--cor-p1);
     color: var(--cor-0);
 }
 

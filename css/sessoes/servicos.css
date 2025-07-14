@@ -9,8 +9,9 @@
 .servicos ul {
     padding-top: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
-    gap: 32px;
+    grid-template-columns: repeat(3, 372px); 
+    gap: 52px;
+    justify-content: center;
 }
 
 .lista-servicos img {
@@ -47,6 +48,10 @@
 }
 
 @media (max-width: 1300px) {
+    .servicos ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .lista-servicos {
         display: grid;
         justify-content: center;
@@ -54,6 +59,10 @@
 }
 
 @media (max-width: 900px) {
+    .servicos ul {
+        grid-template-columns: 1fr;
+    }
+
     .servicos {
         padding: 50px;
         padding-right: 0px;
